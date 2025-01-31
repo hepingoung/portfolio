@@ -8,11 +8,50 @@
 </head>
 <body>
     <header>
-        <h1>Witaj na moim portfolio!</h1>
+        <h1>Moje Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">O mnie</a></li>
+                <li><a href="#projects">Projekty</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
     </header>
-    <section>
-        <h2>Moje Projekty</h2>
-        <p>Tu będą Twoje projekty z Excela, SQL i Power BI.</p>
+
+    <section id="about">
+        <h2>O mnie</h2>
+        <p>Cześć! Jestem [Twoje Imię], specjalizuję się w Excelu, SQL i Power BI. Tutaj znajdziesz moje projekty i doświadczenie.</p>
     </section>
+
+    <section id="projects">
+        <h2>Projekty</h2>
+        <div class="project">
+            <h3>Analiza danych w Excelu</h3>
+            <p>Stworzyłem dashboard do analizy sprzedaży w Excelu.</p>
+            <a href="projects/excel_projekt.xlsx" download>Pobierz</a>
+        </div>
+
+        <div class="project">
+            <h3>Zapytania SQL</h3>
+            <p>Przykładowe zapytania SQL do analizy bazy danych.</p>
+            <a href="projects/sql_projekt.sql" download>Pobierz</a>
+        </div>
+
+        <div class="project">
+            <h3>Raport Power BI</h3>
+            <p>Interaktywny raport w Power BI.</p>
+            <a href="https://app.powerbi.com/" target="_blank">Zobacz</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Skontaktuj się ze mną przez e-mail: <a href="mailto:twojemail@example.com">twojemail@example.com</a></p>
+        <p>Lub odwiedź mój <a href="https://github.com/TWOJ_NICK" target="_blank">GitHub</a></p>
+    </section>
+
+    <footer>
+        <p>© 2024 Moje Portfolio. Wszelkie prawa zastrzeżone.</p>
+    </footer>
 </body>
 </html>
