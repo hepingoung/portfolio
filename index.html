@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moje Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title> Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Moje Portfolio</h1>
+        <h1>Portfolio</h1>
         <nav>
             <ul>
                 <li><a href="#about">O mnie</a></li>
@@ -18,40 +19,44 @@
         </nav>
     </header>
 
-    <section id="about">
-        <h2>O mnie</h2>
-        <p>Cześć! Jestem [Twoje Imię], specjalizuję się w Excelu, SQL i Power BI. Tutaj znajdziesz moje projekty i doświadczenie.</p>
+    <section class="hero">
+        <h1>Cześć, jestem Bartek!</h1>
+        <p>Jestem magistrem finansów i rachunkowości o specjalizacji analityka danych biznesowych. 
+           Tworzę przejrzyste i skuteczne raporty, które pomagają podejmować lepsze decyzje biznesowe. 
+           Łączę wiedzę finansową z umiejętnościami analizy danych, by dostarczać wartościowe rozwiązania.</p>
+        <a href="#projects" class="btn">Zobacz moje prace</a>
     </section>
 
+
     <section id="projects">
-        <h2>Projekty</h2>
-        <div class="project">
-            <h3>Analiza danych w Excelu</h3>
-            <p>Stworzyłem dashboard do analizy sprzedaży w Excelu.</p>
-            <a href="projects/excel_projekt.xlsx" download>Pobierz</a>
-        </div>
-
-        <div class="project">
-            <h3>Zapytania SQL</h3>
-            <p>Przykładowe zapytania SQL do analizy bazy danych.</p>
-            <a href="projects/sql_projekt.sql" download>Pobierz</a>
-        </div>
-
-        <div class="project">
-            <h3>Raport Power BI</h3>
-            <p>Interaktywny raport w Power BI.</p>
-            <a href="https://app.powerbi.com/" target="_blank">Zobacz</a>
+        <h2>Moje Projekty</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Analiza danych w Excelu (in progress)</h3>
+                <p>Interaktywny dashboard do analizy sprzedaży.</p>
+                <a href="projects/excel_projekt.xlsx" download>Pobierz</a>
+            </div>
+            <div class="project-card">
+                <h3>Zapytania SQL (in progress)</h3>
+                <p>Optymalizacja baz danych i raporty.</p>
+                <a href="projects/sql_projekt.sql" download>Pobierz</a>
+            </div>
+            <div class="project-card">
+                <h3>Raport Power BI (in progress)</h3>
+                <p>Zaawansowana analiza wizualna.</p>
+                <a href="https://app.powerbi.com/" target="_blank">Zobacz</a>
+            </div>
         </div>
     </section>
 
     <section id="contact">
         <h2>Kontakt</h2>
-        <p>Skontaktuj się ze mną przez e-mail: <a href="mailto:twojemail@example.com">twojemail@example.com</a></p>
-        <p>Lub odwiedź mój <a href="https://github.com/TWOJ_NICK" target="_blank">GitHub</a></p>
+        <p>Email: <a href="mailto:barthepx.1@gmail.com">barthepx.1@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/hepingoung" target="_blank">Hepingoung</a></p>
     </section>
 
     <footer>
-        <p>© 2024 Moje Portfolio. Wszelkie prawa zastrzeżone.</p>
+        <p>© 2025 Wszelkie prawa zastrzeżone.</p>
     </footer>
 </body>
 </html>
